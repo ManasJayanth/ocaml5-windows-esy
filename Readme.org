@@ -3,3 +3,30 @@
 This is a sample program demonstrating OCaml 5 on Windows
 This compiler uses the Mingw compatible backend. Binaries produced,
 however dont need any additional cygwin environment.
+
+** Instructions to run
+
+1. Install [[https://esy.sh/][esy]]
+
+#+begin_src sh
+npm i -g esy
+#+end_src
+
+
+2. Install the dependencies
+
+#+begin_src sh
+esy
+#+end_src
+
+3. Compile the program
+
+#+begin_src sh
+esy ocamlopt ./main.ml
+#+end_src
+
+4. Run the program
+
+#+begin_src sh
+./camlprog.exe
+#+end_src
