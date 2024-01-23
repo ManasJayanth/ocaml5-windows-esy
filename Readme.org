@@ -1,0 +1,5 @@
+* OCaml 5 on Windows
+
+This is a sample program demonstrating OCaml 5 on Windows
+This compiler uses the Mingw compatible backend. Binaries produced,
+however dont need any additional cygwin environment.
